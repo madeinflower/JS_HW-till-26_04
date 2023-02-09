@@ -1,0 +1,138 @@
+   0 --help
+   1 cd
+   2 cd ..
+   3 ls
+   4 --help
+   5 -- help
+   6 cd ..
+   7 ls
+   8 ls -l
+   9 ls -la
+  10 cd /home/
+  11 pwd
+  12 mkdir user1
+  13 ls
+  14 cd user1/
+  15 mkdir user task1
+  16 cd task1
+  17 touch file1.txt
+  18 ls
+  19 cd ..
+  20 mkdir user2
+  21 ls
+  22 cd user2
+  23 mkdir task2
+  24 cd task2
+  25 touch file2.txt
+  26 cd /home
+  27 tree
+  28 bin
+  29 ls
+  30 ls -R
+  31 cd
+  32 mkdir /home/user3
+  33 ls /home
+  34 mkdir /home/user3/task3
+  35 ls /home
+  36 ls /home/user3
+  37 touch /home/user3/task3/file3.txt
+  38 mkdir /home/user4/task4/
+  39 mkdir -p /home/user4/task4/
+  40 touch /home/user4/task4/file4.txt
+  41 mv /home/user4/task4/file4.txt /home/user4/task4/file4.txt
+  42 mkdir -p /home/user5/task5/file5.txt
+  43 mkdir -p /home/user5/task5/ touch / && /home/user5/task5/file5.txt
+  44 -p /home/user5/task5/ && touch /home/user5/task5/file5.txt
+  45 mkdir -p /home/user5/task5/ && touch /home/user5/task5/file5.txt
+  46 tree /home
+  47 mkdir -p /home/user4/4.1 /home/user4/4.2 /tmp/tania/123
+  48 ls
+  49 tree /home
+  50 tree /tmp
+  51 clear
+  52 tree /home
+  53 cp /home/user1/task1/file1.txt /tmp/
+  54 ls /tmp
+  55 cp /home/user2/task2/file2.txt /tmp/1.txt
+  56 ls /tmp
+  57 cp /home/user3 /tmp
+  58 cp -R /home/user3 /tmp
+  59 mv home/user4/task4/file4.txt /tmp/123.txt 
+  60 mv home/user5/task5/file5.txt /tmp/123.txt
+  61 mv /home/user4/task4/file4.txt /tmp/123.txt
+  62 rmdir --help
+  63 rm --help
+  64 rm -r /tmp/file1.txt
+  65 history > 09_02_first_commands_vol2.txt
+  66 export_file 09_02_first_commands_vol2.txt
+  67 whoami
+  68 pwd
+  69 ls
+  70 mkdir /tmp/mydir/test
+  71 mkdir -p /tmp/mydir/test
+  72 ls /tmp
+  73 ls /mydir
+  74 tree /tmp
+  75 touch /tmp/mydir/test/tetiana.txt
+  76 ls /tmp
+  77 ls/tmp/mydir/test
+  78 ls tmp/mydir
+  79 mkdir /home/tmp/mydir
+  80 mkdir -p /home/tmp/mydir
+  81 ls /tmp
+  82 touch /home/tmp/mydir/tetiana.txt
+  83 ls /mydir
+  84 ls /home/tmp/mydir
+  85 mkdir -p /home/opt/newfolder
+  86 ls /opt
+  87 tree /opt
+  88 mkdir -p /home/opt/newfolder
+  89 tree /opt
+  90 cp /home/tmp/mydir/test/tetiana.txt /opt/newfolder
+  91 cd ..
+  92 ls /home
+  93 mkdir -p /home/opt/newfolder
+  94 ls /opt
+  95 mkdir -p /home/opt/newfolder/
+  96 ls /opt
+  97 mkdir -p /opt/newfolder/
+  98 ls /opt
+  99 cp /home/tmp/mydir/test/tetiana.txt /opt/newfolder/tetiana.txt
+ 100 cp tmp/mydir/test/tetiana.txt /opt/newfolder/tetiana.txt
+ 101 ls /newfolder
+ 102 ls/opt
+ 103 ls /opt
+ 104 ls /newfolder
+ 105 tree newfolder
+ 106 cp /home/tmp/mydir/test/tetiana.txt /opt/newfolder
+ 107 cd ..
+ 108 ls /home
+ 109 ls /opt
+ 110 ls /newfolder
+ 111 cd home
+ 112 cd/tmp
+ 113 cd /tmp
+ 114 cd /newfolder
+ 115 cd home
+ 116 cd ..
+ 117 cd home
+ 118 cd /opt
+ 119 cd /newfolder
+ 120 cd /tmp
+ 121 cd /mydir
+ 122 history
+ 123 tree /tmp
+ 124 tree /opt
+ 125 cd ..
+ 126 rm -r /tmp/mydir/test/tetiana.txt
+ 127 tree /test
+ 128 tree /tmp
+ 129 rm -r /tmp/mydir/test
+ 130 tree /tmp
+ 131 mkdir /tmp/mydir/test
+ 132 tree tmp
+ 133 tree /opt
+ 134 cd /etc
+ 135 history
+ 136 cd
+ 137 history > history.txt
